@@ -8,6 +8,9 @@
 #include <string.h>
 #include <unistd.h>
 
+/*
+ * This is define string to mark salt for SHA256 "encryption" replacement.  
+ */
 #define SALT "$6$HP$"
 
 #define PASSWD_FILE "../data/popular_passwords.txt"
