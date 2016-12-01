@@ -15,6 +15,7 @@
 # - Sarah Mount, September 2014
 #
 
+#The SUBDIRS variable holds a list of subdirectories. By default, the subdirectories are built before the current directory.
 SUBDIRS = serial
 
 all:
