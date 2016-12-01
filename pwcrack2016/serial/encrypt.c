@@ -13,6 +13,9 @@
  */
 #define SALT "$6$HP$"
 
+/*
+ * It Explain /etc/password file format for linux and UNIX operating systems.
+ */
 #define PASSWD_FILE "../data/popular_passwords.txt"
 
 #define ERROR -1
