@@ -31,6 +31,10 @@ char* encrypt_string(char* password);
 
 FILE* open_file(char* filename);
 void close_file(FILE* fp);
+
+/*
+ * Read file line by line.
+ */
 void read_line_in_file(FILE* fp, char** line);
 
 
