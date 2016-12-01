@@ -16,6 +16,9 @@
 #
 
 #The SUBDIRS variable holds a list of subdirectories. By default, the subdirectories are built before the current directory.
+
+#In the Makefile will run commands both locally and in all specified subdirectories. At the moment serial-subdirectories run in parallel-subdirectorty.
+
 SUBDIRS = serial
 
 all:
