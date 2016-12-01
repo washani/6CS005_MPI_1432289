@@ -10,6 +10,7 @@
 # - Sarah Mount, September 2014
 #
 
+#This command used to compile and link MPI programme Written in C Language.
 CC=mpicc
 
 RM=rm
