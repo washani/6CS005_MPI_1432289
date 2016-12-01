@@ -19,7 +19,8 @@
 
 #In the Makefile will run commands both locally and in all specified subdirectories. At the moment serial-subdirectories run in parallel-subdirectorty.
 
-SUBDIRS = serial
+#Added mpi path into the subdirectory. SUBDIRS variable below show the path of the mpi sub-directory.
+SUBDIRS = serial mpi
 
 all:
 	@for dir in $(SUBDIRS); \
