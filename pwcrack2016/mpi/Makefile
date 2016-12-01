@@ -13,6 +13,7 @@
 #This command used to compile and link MPI programme Written in C Language.
 CC=mpicc
 
+#Remove file or directories.
 RM=rm
 
 # What to all these C flags mean?
