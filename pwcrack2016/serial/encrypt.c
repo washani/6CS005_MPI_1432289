@@ -24,6 +24,11 @@
  * Public encrypt password.
  */
 char* encrypt_string(char* password);
+
+/*
+ * Function to Open close files.
+ */
+
 FILE* open_file(char* filename);
 void close_file(FILE* fp);
 void read_line_in_file(FILE* fp, char** line);
