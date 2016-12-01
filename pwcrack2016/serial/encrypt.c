@@ -20,6 +20,9 @@
 
 #define ERROR -1
 
+/*
+ * Public encrypt password.
+ */
 char* encrypt_string(char* password);
 FILE* open_file(char* filename);
 void close_file(FILE* fp);
